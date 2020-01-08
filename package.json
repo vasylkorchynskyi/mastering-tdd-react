@@ -3,20 +3,29 @@
   "version": "1.0.0",
   "description": "Published by Packt",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PacktPublishing/Mastering-React-Test-Driven-Development.git"
+    "url": "git+https://github.com/vasylkorchynskyi/mastering-tdd-react.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PacktPublishing/Mastering-React-Test-Driven-Development/issues"
+    "url": "https://github.com/vasylkorchynskyi/mastering-tdd-react/issues"
   },
-  "homepage": "https://github.com/PacktPublishing/Mastering-React-Test-Driven-Development#readme",
+  "homepage": "https://github.com/vasylkorchynskyi/mastering-tdd-react#readme",
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
